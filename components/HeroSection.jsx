@@ -5,7 +5,7 @@ import React from 'react'
 const HeroSection = () => {
   return (
       <section className='w-full py-8'>
-          <div className='flex gap-4 items-center justify-between'>
+          <div className='flex flex-col-reverse items-start gap-4 md:flex-row md:items-center justify-between'>
               <div className='flex flex-col gap-1'>
                   <div className='flex gap-4 items-center'>
                       <h1 className='font-bold text-[24px] md:text-[48px]'>Ganesh Rana</h1>
